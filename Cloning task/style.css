@@ -1,0 +1,201 @@
+/* Reset & Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Navbar */
+nav {
+  background: #fff;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav h1 {
+  font-size: 24px;
+  color: #007bff;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+/* Hero Section */
+.hero {
+  background: #444;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+.hero a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.hero a:hover {
+  background-color: #0056b3;
+}
+
+/* Section Titles */
+section h3 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #222;
+}
+
+/* Causes Section */
+.causes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.cause-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.cause-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.cause-card h4 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+/* Stats Section */
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #e0f0ff;
+  color: #0056b3;
+  font-weight: bold;
+  padding: 30px 20px;
+  gap: 40px;
+  text-align: center;
+}
+
+/* Volunteer Section */
+#volunteer {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* Testimonials Section */
+.testimonials {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 60px 20px;
+}
+
+.testimonials blockquote {
+  font-style: italic;
+  margin: 12px auto;
+  max-width: 600px;
+}
+
+/* News Section */
+section p {
+  text-align: center;
+  margin: 8px 0;
+}
+
+/* Form Section */
+form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+form button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Contact Section */
+#contact {
+  padding: 60px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+#contact p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
